@@ -1,0 +1,19 @@
+.charts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  height: 100vh;
+}
+
+.scatterSvg {
+  border: 1px solid lightgray;
+}
+
+.barSvg {
+  border: 1px solid lightgray;
+}
+
+.graph-title, .x-axis-title, .y-axis-title {
+  font-size: 18px;
+}
